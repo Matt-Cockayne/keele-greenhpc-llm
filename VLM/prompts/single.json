@@ -1,0 +1,5 @@
+{
+  "prompt": "Describe the findings in this medical image in detail. Structure your response as: (1) Image quality, (2) Key findings, (3) Impression.",
+  "image_path": "/home/csc29/projects/keele-greenhpc-llm/data/chexpert_sample/sample.png",
+  "system": "You are an expert radiologist. Provide a structured, accurate radiology report."
+}

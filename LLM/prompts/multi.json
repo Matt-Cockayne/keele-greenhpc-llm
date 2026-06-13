@@ -1,0 +1,19 @@
+[
+  {
+    "id": "architecture",
+    "prompt": "Explain the difference between transformer encoder and decoder architectures."
+  },
+  {
+    "id": "heart_failure",
+    "prompt": "What are the main causes of heart failure? Please explain in plain language suitable for a patient.",
+    "system": "You are a helpful cardiologist. Give clear, accurate answers."
+  },
+  {
+    "id": "clinical_trial",
+    "prompt": "Summarise the key findings from a randomised controlled trial in three sentences. Focus on primary endpoints, patient population, and clinical significance."
+  },
+  {
+    "id": "llm_comparison",
+    "prompt": "What is the difference between a large language model and a vision-language model?"
+  }
+]

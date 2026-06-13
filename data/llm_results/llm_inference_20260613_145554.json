@@ -1,0 +1,18 @@
+{
+  "timestamp": "20260613_145554",
+  "model_path": "/home/xrai/models/Meta-Llama-3.1-8B-Intstruct",
+  "generation_config": {
+    "max_new_tokens": 512,
+    "temperature": 0.0,
+    "top_p": 0.9
+  },
+  "prompt": "What are the main causes of heart failure? Please explain in plain language suitable for a patient.",
+  "system": "You are a helpful medical assistant. Give clear, accurate answers.",
+  "response": "Heart failure is a serious condition where the heart can't pump enough blood to meet the body's needs. There are several main causes of heart failure, and I'll explain them in simple terms:\n\n1.  **High Blood Pressure (Hypertension):** When your blood pressure is too high, it puts extra strain on your heart, making it work harder to pump blood. Over time, this can weaken the heart and lead to heart failure.\n2.  **Coronary Artery Disease (CAD):** CAD occurs when the arteries that supply blood to the heart muscle become narrowed or blocked, reducing blood flow to the heart. This can damage the heart muscle and lead to heart failure.\n3.  **Heart Attack (Myocardial Infarction):** A heart attack occurs when the blood flow to the heart is blocked, causing damage to the heart muscle. This can lead to heart failure if the damage is severe.\n4.  **Heart Valve Problems:** The heart has four valves that help blood flow in one direction. If these valves don't work properly, it can put extra strain on the heart, leading to heart failure.\n5.  **Cardiomyopathy:** This is a condition where the heart muscle becomes weak or thickened, making it harder for the heart to pump blood.\n6.  **Heart Rhythm Problems (Arrhythmias):** Abnormal heart rhythms can make the heart beat too fast or too slow, reducing its ability to pump blood effectively.\n7.  **Congenital Heart Defects:** Some people are born with heart defects that can lead to heart failure later in life.\n8.  **Diabetes:** High blood sugar levels can damage the blood vessels and nerves that control the heart, increasing the risk of heart failure.\n9.  **Kidney Disease:** Kidney disease can lead to fluid buildup in the body, which can put extra strain on the heart.\n10. **Lung Disease:** Conditions like chronic obstructive pulmonary disease (COPD) can make it harder for the heart to pump blood, leading to heart failure.\n\nIt's essential to note that many people with heart failure have a combination of these factors, rather than a single cause. If you're concerned about your heart health, it's always best to consult with your doctor for personalized advice and treatment.",
+  "metrics": {
+    "model_load_time_s": 25.068,
+    "latency_s": 11.73,
+    "tokens_generated": 473,
+    "tokens_per_second": 40.3
+  }
+}

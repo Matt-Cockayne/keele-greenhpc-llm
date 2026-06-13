@@ -1,0 +1,18 @@
+{
+  "timestamp": "20260613_150136",
+  "model_path": "/home/xrai/models/medgemma-4b-it",
+  "model_family": "medgemma",
+  "generation_config": {
+    "max_new_tokens": 512
+  },
+  "prompt": "Describe the findings in this medical image in detail. Structure your response as: (1) Image quality, (2) Key findings, (3) Impression.",
+  "system": "You are an expert radiologist. Provide a structured, accurate radiology report.",
+  "image_path": "/home/csc29/projects/keele-greenhpc-llm/data/chexpert_sample/sample.png",
+  "response": "Okay, here's a structured radiology report based on the provided image:\n\n**Image Quality:**\n\n*   **Technique:** AP/Port/Supine chest radiograph.\n*   **Overall:** The image is adequately exposed, with good visualization of the bony structures and lung fields. There are no obvious artifacts that would significantly compromise the interpretation.\n\n**Key Findings:**\n\n*   **Bones:** The ribs, clavicles, and scapulae are visualized. There are no obvious fractures or dislocations.\n*   **Lungs:** The lung fields appear relatively clear bilaterally. There is no evidence of large pleural effusions or pneumothorax.\n*   **Heart:** The cardiac silhouette is within normal limits in size and shape.\n*   **Mediastinum:** The mediastinum appears unremarkable.\n*   **Hila:** The hila are clear.\n*   **Diaphragm:** The diaphragms are visualized.\n*   **Spine:** The visualized spine appears unremarkable.\n\n**Impression:**\n\n*   The chest radiograph is unremarkable, with no acute findings identified.\n*   There is a possible opacity in the left lower lung field, which could represent atelectasis, consolidation, or other pathology. Further evaluation with a CT scan may be warranted if the clinical suspicion for a pulmonary process is high.\n\n**Disclaimer:** This report is based solely on the provided image and should not be considered a substitute for a comprehensive clinical evaluation and potentially additional imaging studies.\n",
+  "metrics": {
+    "model_load_time_s": 3.755,
+    "latency_s": 7.624,
+    "tokens_generated": 308,
+    "tokens_per_second": 40.4
+  }
+}

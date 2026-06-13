@@ -1,0 +1,9 @@
+{
+  "image_path": "/home/csc29/projects/Cardiac-VLM/test/chexpert_sample/sample.png",
+  "redivis_path": "valid/patient64545/study1/view1_frontal.jpg",
+  "report": "NARRATIVE:\nCHEST:\nSingle view. 11/24/2007\nCOMPARISON: None.\nFINDINGS:\nThere are low lung volumes. The cardiomediastinal silhouette is\nwithin normal limits. There is evidence of trace pulmonary edema\nwith a left pleural effusion. Left retrocardiac atelectasis is\nnoted. There are old bilateral rib fractures.\nIMPRESSION:\n1. TRACE PULMONARY EDEMA WITH LEFT PLEURAL EFFUSION.\n2. LOW LUNG VOLUMES AND LEFT LOWER LOBE ATELECTASIS.\n3. OLD BILATERAL RIB FRACTURES.\nEND OF IMPRESSION:\nSUMMARY 4: Possible significant abnormality/change, may need\naction.\nI have personally reviewed the images for this examination and agree\nwith the report transcribed above.\nBy: Lucas, Lewis  on: 11-24-2007\n \nACCESSION NUMBER:\n7953647427\nThis report has been anonymized. All dates are offset from the actual dates by a fixed interval associated with the patient.",
+  "section_findings": "\nThere are low lung volumes. The cardiomediastinal silhouette is\nwithin normal limits. There is evidence of trace pulmonary edema\nwith a left pleural effusion. Left retrocardiac atelectasis is\nnoted. There are old bilateral rib fractures.\n",
+  "section_impression": "\n1. TRACE PULMONARY EDEMA WITH LEFT PLEURAL EFFUSION.\n2. LOW LUNG VOLUMES AND LEFT LOWER LOBE ATELECTASIS.\n3. OLD BILATERAL RIB FRACTURES.\n",
+  "frontal_lateral": "Frontal",
+  "split": "valid"
+}

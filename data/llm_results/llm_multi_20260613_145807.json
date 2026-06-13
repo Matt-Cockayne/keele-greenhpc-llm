@@ -1,0 +1,63 @@
+{
+  "timestamp": "20260613_145807",
+  "model_path": "/home/xrai/models/Meta-Llama-3.1-8B-Intstruct",
+  "prompts_file": "/home/csc29/projects/keele-greenhpc-llm/LLM/prompts/multi.json",
+  "generation_config": {
+    "max_new_tokens": 512,
+    "temperature": 0.0,
+    "top_p": 0.9
+  },
+  "aggregate_metrics": {
+    "model_load_time_s": 6.483,
+    "total_prompts": 4,
+    "total_tokens_generated": 1895,
+    "mean_latency_s": 11.566,
+    "mean_tokens_per_second": 41.0
+  },
+  "results": [
+    {
+      "id": "architecture",
+      "prompt": "Explain the difference between transformer encoder and decoder architectures.",
+      "system": null,
+      "response": "**Transformer Encoder and Decoder Architectures: A Comprehensive Overview**\n\nThe Transformer model, introduced in the paper \"Attention is All You Need\" by Vaswani et al. in 2017, revolutionized the field of natural language processing (NLP) by abandoning traditional recurrent neural networks (RNNs) and convolutional neural networks (CNNs) in favor of self-attention mechanisms. The Transformer architecture consists of two primary components: the encoder and the decoder. In this explanation, we will delve into the differences between these two components.\n\n**Transformer Encoder Architecture**\n\nThe Transformer encoder is responsible for processing input sequences, such as sentences or paragraphs, and generating a fixed-size vector representation, known as the contextualized representation or the encoder output. The encoder consists of an input embedding layer, a series of identical layers called encoder layers, and a final output layer.\n\n**Key Components of the Encoder:**\n\n1.  **Input Embedding Layer:** This layer converts the input tokens (words or subwords) into numerical vectors, known as embeddings. These embeddings are used as input to the encoder.\n2.  **Encoder Layers:** Each encoder layer consists of two sub-layers:\n    *   **Self-Attention Mechanism:** This sub-layer allows the model to attend to all positions in the input sequence simultaneously and weigh their importance. The self-attention mechanism is computed using three matrices: query (Q), key (K), and value (V).\n    *   **Feed-Forward Network (FFN):** This sub-layer applies a fully connected feed-forward network to the output of the self-attention mechanism.\n3.  **Layer Normalization:** This layer normalizes the output of each encoder layer to have a mean of 0 and a standard deviation of 1.\n4.  **Output Layer:** The final output of the encoder is a fixed-size vector representation of the input sequence.\n\n**Transformer Decoder Architecture**\n\nThe Transformer decoder is responsible for generating output sequences, such as translations or text, based on the input sequence and the encoder output. The decoder consists of an input embedding layer, a series of identical layers called decoder layers, and a final output layer.\n\n**Key Components of the Decoder:**\n\n1.  **Input Embedding Layer:** This layer converts the input tokens (words or subwords) into numerical vectors, known as embeddings. These embeddings are used as input to the decoder.\n2.  **Decoder Layers:** Each decoder layer consists of three sub-layers:\n    *   **Self-Attention Mechanism:** This",
+      "metrics": {
+        "latency_s": 12.64,
+        "tokens_generated": 512,
+        "tokens_per_second": 40.5
+      }
+    },
+    {
+      "id": "heart_failure",
+      "prompt": "What are the main causes of heart failure? Please explain in plain language suitable for a patient.",
+      "system": "You are a helpful cardiologist. Give clear, accurate answers.",
+      "response": "As a cardiologist, I'd be happy to explain the main causes of heart failure in simple terms.\n\nHeart failure is a condition where the heart doesn't pump blood as well as it should, making it harder for the body to get the oxygen and nutrients it needs. There are many reasons why this can happen, but here are the main causes:\n\n1. **High Blood Pressure (Hypertension):** When your blood pressure is too high, it puts extra strain on your heart, making it work harder to pump blood. Over time, this can weaken the heart muscle and lead to heart failure.\n2. **Coronary Artery Disease (CAD):** This is when the arteries that supply blood to the heart muscle become narrowed or blocked, reducing blood flow to the heart. This can lead to a heart attack, which can damage the heart muscle and cause heart failure.\n3. **Heart Attack (Myocardial Infarction):** A heart attack occurs when the blood flow to the heart is blocked, causing damage to the heart muscle. This can lead to scarring and weakening of the heart, making it harder for it to pump blood.\n4. **Heart Valve Problems:** The heart has four valves that help blood flow in one direction. If these valves don't work properly, it can put extra strain on the heart, leading to heart failure.\n5. **Cardiomyopathy:** This is a condition where the heart muscle becomes weak and can't pump blood properly. It can be caused by a variety of factors, including genetics, high blood pressure, and certain medications.\n6. **Heart Rhythm Problems:** Abnormal heart rhythms, such as atrial fibrillation, can weaken the heart and lead to heart failure.\n7. **Diabetes:** High blood sugar levels can damage the blood vessels and nerves that control the heart, leading to heart failure.\n8. **Obesity and Sedentary Lifestyle:** Being overweight or obese can put extra strain on the heart, while a sedentary lifestyle can weaken the heart muscle.\n9. **Family History:** If you have a family history of heart failure, you may be more likely to develop it.\n10. **Other Medical Conditions:** Certain conditions, such as kidney disease, thyroid disease, and sleep apnea, can increase the risk of heart failure.\n\nIt's essential to note that many people with heart failure have a combination of these factors, rather than just one single cause. If you're concerned about your heart health, it's always best to talk to your",
+      "metrics": {
+        "latency_s": 12.444,
+        "tokens_generated": 512,
+        "tokens_per_second": 41.1
+      }
+    },
+    {
+      "id": "clinical_trial",
+      "prompt": "Summarise the key findings from a randomised controlled trial in three sentences. Focus on primary endpoints, patient population, and clinical significance.",
+      "system": null,
+      "response": "I'd be happy to provide a summary of a randomised controlled trial. However, I need a specific trial to summarise. Since I don't have a specific trial in mind, I'll create a hypothetical example.\n\n**Hypothetical Randomised Controlled Trial:**\n\n**Trial Name:** \"Efficacy of a Novel Anti-Hypertensive Medication in Patients with Hypertension\"\n\n**Primary Endpoints:**\n\n* The primary endpoint was the change in systolic blood pressure (SBP) from baseline to 12 weeks.\n* The secondary endpoint was the change in diastolic blood pressure (DBP) from baseline to 12 weeks.\n\n**Patient Population:**\n\n* The trial enrolled 1,000 patients with hypertension (SBP \u2265 140 mmHg and/or DBP \u2265 90 mmHg) who were not on antihypertensive medication.\n* Patients were randomly assigned to receive either the novel anti-hypertensive medication (n = 500) or a placebo (n = 500).\n\n**Key Findings:**\n\n* The novel anti-hypertensive medication significantly reduced SBP by 10.2 mmHg (95% CI: 8.5-11.9 mmHg) and DBP by 6.5 mmHg (95% CI: 5.1-7.9 mmHg) at 12 weeks compared to the placebo group.\n* The between-group difference in SBP was clinically significant, with a number needed to treat (NNT) of 5.6 to achieve a 10 mmHg reduction in SBP.\n* The results suggest that the novel anti-hypertensive medication is an effective treatment option for patients with hypertension, with a significant reduction in blood pressure and potential cardiovascular benefits.\n\nPlease note that this is a hypothetical example, and actual trial results may vary.",
+      "metrics": {
+        "latency_s": 9.35,
+        "tokens_generated": 385,
+        "tokens_per_second": 41.2
+      }
+    },
+    {
+      "id": "llm_comparison",
+      "prompt": "What is the difference between a large language model and a vision-language model?",
+      "system": null,
+      "response": "Large language models and vision-language models are both types of artificial intelligence (AI) models, but they have distinct differences in their architecture, functionality, and applications.\n\n**Large Language Models:**\n\nLarge language models are a type of neural network designed to process and generate human-like language. They are trained on vast amounts of text data and can understand the structure and semantics of language, allowing them to:\n\n1.  **Generate text**: Create coherent and contextually relevant text based on a given prompt or input.\n2.  **Answer questions**: Provide accurate and informative responses to questions, often with a high degree of confidence.\n3.  **Translate text**: Translate text from one language to another.\n4.  **Summarize content**: Condense long pieces of text into shorter, more digestible summaries.\n\nExamples of large language models include:\n\n*   BERT (Bidirectional Encoder Representations from Transformers)\n*   RoBERTa (Robustly Optimized BERT Pretraining Approach)\n*   XLNet (Extreme Language Modeling for Better Language Understanding)\n\n**Vision-Language Models:**\n\nVision-language models, also known as multimodal or visual-language models, are designed to process and understand both text and visual data. They can:\n\n1.  **Generate text from images**: Describe images using natural language.\n2.  **Answer questions about images**: Provide accurate and informative responses to questions about images.\n3.  **Localize objects in images**: Identify specific objects or regions within an image.\n4.  **Classify images**: Categorize images into predefined categories.\n\nExamples of vision-language models include:\n\n*   CLIP (Contrastive Language-Image Pre-training)\n*   DALL-E (DALL-E: Creating Images from Text)\n*   VQGAN (Variational Autoencoder-based Generative Model)\n\n**Key differences:**\n\n1.  **Input data**: Large language models are trained on text data, while vision-language models are trained on both text and visual data.\n2.  **Output**: Large language models generate text, while vision-language models generate text or perform visual tasks.\n3.  **Applications**: Large language models are often used for natural language processing tasks, while vision-language models are used for computer vision and multimodal applications.\n\nIn summary, while both large language models and vision-language models are powerful AI tools, they have distinct differences in their architecture, functionality, and applications.",
+      "metrics": {
+        "latency_s": 11.829,
+        "tokens_generated": 486,
+        "tokens_per_second": 41.2
+      }
+    }
+  ]
+}

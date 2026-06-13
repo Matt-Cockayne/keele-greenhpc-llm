@@ -1,0 +1,23 @@
+[
+  {
+    "id": "cxr_describe",
+    "prompt": "Describe the key findings in this chest X-ray. Mention any abnormalities, their location, and severity.",
+    "image_path": "/home/csc29/projects/keele-greenhpc-llm/data/chexpert_sample/sample.png",
+    "system": "You are an expert radiologist."
+  },
+  {
+    "id": "cxr_impression",
+    "prompt": "Provide a clinical impression for this chest X-ray in two sentences. State the most likely diagnosis and any urgent findings.",
+    "image_path": "/home/csc29/projects/keele-greenhpc-llm/data/chexpert_sample/sample.png"
+  },
+  {
+    "id": "cxr_followup",
+    "prompt": "What follow-up imaging or clinical actions would you recommend based on the findings in this chest X-ray?",
+    "image_path": "/home/csc29/projects/keele-greenhpc-llm/data/chexpert_sample/sample.png",
+    "system": "You are a senior radiologist advising a junior clinician."
+  },
+  {
+    "id": "text_only_pneumonia",
+    "prompt": "What are the typical radiological signs of pneumonia on a chest X-ray? List the main features."
+  }
+]
