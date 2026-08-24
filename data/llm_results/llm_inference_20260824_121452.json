@@ -1,0 +1,18 @@
+{
+  "timestamp": "20260824_121452",
+  "model_path": "/home/xrai/models/Meta-Llama-3.1-8B-Intstruct",
+  "generation_config": {
+    "max_new_tokens": 512,
+    "temperature": 0.0,
+    "top_p": 0.9
+  },
+  "prompt": "Explain the difference between transformer encoder and decoder architectures.",
+  "system": null,
+  "response": "**Transformer Encoder and Decoder Architectures: A Comprehensive Overview**\n\nThe Transformer model, introduced in the paper \"Attention is All You Need\" by Vaswani et al. in 2017, revolutionized the field of natural language processing (NLP) by abandoning traditional recurrent neural networks (RNNs) and convolutional neural networks (CNNs) in favor of self-attention mechanisms. The Transformer architecture consists of two primary components: the encoder and the decoder. In this explanation, we will delve into the differences between these two components.\n\n**Transformer Encoder Architecture**\n\nThe Transformer encoder is responsible for processing input sequences, such as sentences or paragraphs, and generating a fixed-size vector representation, known as the contextualized representation or the encoder output. The encoder consists of an input embedding layer, a series of identical layers called encoder layers, and a final output layer.\n\n**Key Components of the Encoder:**\n\n1.  **Input Embedding Layer:** This layer converts the input tokens (words or subwords) into numerical vectors, known as embeddings. These embeddings are used as input to the encoder.\n2.  **Encoder Layers:** Each encoder layer consists of two sub-layers:\n    *   **Self-Attention Mechanism:** This sub-layer allows the model to attend to all positions in the input sequence simultaneously and weigh their importance. The self-attention mechanism is computed using three matrices: query (Q), key (K), and value (V).\n    *   **Feed-Forward Network (FFN):** This sub-layer applies a fully connected feed-forward network to the output of the self-attention mechanism.\n3.  **Layer Normalization:** This layer normalizes the output of each encoder layer to have a mean of 0 and a standard deviation of 1.\n4.  **Output Layer:** The final output of the encoder is a fixed-size vector representation of the input sequence.\n\n**Transformer Decoder Architecture**\n\nThe Transformer decoder is responsible for generating output sequences, such as translations or text, based on the input sequence and the encoder output. The decoder consists of an input embedding layer, a series of identical layers called decoder layers, and a final output layer.\n\n**Key Components of the Decoder:**\n\n1.  **Input Embedding Layer:** This layer converts the input tokens (words or subwords) into numerical vectors, known as embeddings. These embeddings are used as input to the decoder.\n2.  **Decoder Layers:** Each decoder layer consists of three sub-layers:\n    *   **Self-Attention Mechanism:** This",
+  "metrics": {
+    "model_load_time_s": 31.5,
+    "latency_s": 13.155,
+    "tokens_generated": 512,
+    "tokens_per_second": 38.9
+  }
+}

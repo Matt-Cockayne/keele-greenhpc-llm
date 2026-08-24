@@ -1,0 +1,17 @@
+[
+  {
+    "id": "condition_none",
+    "prompt": "A 65-year-old patient presents with shortness of breath and leg swelling. What are the most likely diagnoses?",
+    "system": ""
+  },
+  {
+    "id": "condition_general",
+    "prompt": "A 65-year-old patient presents with shortness of breath and leg swelling. What are the most likely diagnoses?",
+    "system": "You are a helpful medical assistant."
+  },
+  {
+    "id": "condition_specialist",
+    "prompt": "A 65-year-old patient presents with shortness of breath and leg swelling. What are the most likely diagnoses?",
+    "system": "You are an experienced cardiologist. Give a concise differential diagnosis with your top three candidates ranked by likelihood."
+  }
+]

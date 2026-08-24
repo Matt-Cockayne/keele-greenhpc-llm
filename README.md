@@ -183,7 +183,7 @@ A JSON array — the model loads once and answers every prompt in order:
 
 ---
 
-## Step 7 — Running Inference
+## Step 7 — Running Inference on hpc
 
 You can run the scripts directly for quick tests (don't do this), or submit them to the cluster via Slurm (do this).
 
