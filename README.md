@@ -99,6 +99,10 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 
 # Install the HuggingFace libraries and other dependencies.
 pip install "transformers>=4.47.0" accelerate Pillow numpy tqdm sentencepiece tiktoken
+
+
+# Install matplotlib for example plot generation 
+conda install matplotlib
 ```
 
 The environment lives on the shared filesystem, so compute nodes can use it automatically (you do not need to reinstall anything on the compute nodes.)
